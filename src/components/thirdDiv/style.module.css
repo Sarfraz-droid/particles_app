@@ -1,0 +1,24 @@
+.secondDiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.secondDivHeading{
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.canvas{
+    position: relative!important;
+    background-image: url('https://particles.js.org/images/background3.jpg');
+}
+
+.particlesHeader{
+    height: 100vh;
+    overflow: hidden;
+    z-index: -10;
+}
